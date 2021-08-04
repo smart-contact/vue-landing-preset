@@ -11,15 +11,16 @@
         "commit"
       ]
     },
-    "vue-cli-plugin-stylelint": {
-      "config": "stylelint-config-recommended"
+    "@ascendancyy/vue-cli-plugin-stylelint": {
+      "config": "standard",
+      "lintStyleOn": ["build", "commit"]
     },
     "vue-cli-plugin-bootstrap-vue": {
       "usePolyfills": false,
       "useScss": true
     },
     "vue-cli-plugin-fontawesome": {},
-    "@smart-contact/vue-cli-plugin-landing-page": {}
+    "@smart-contact/vue-cli-plugin-landing-page": { "prompts": true }
   },
   "configs": {
     "vue": {
