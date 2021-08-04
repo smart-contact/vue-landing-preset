@@ -3,6 +3,7 @@
   "plugins": {
     "@vue/cli-plugin-babel": {},
     "@vue/cli-plugin-vuex": {},
+    "@vue/cli-plugin-e2e-cypress": {},
     "@vue/cli-plugin-eslint": {
       "config": "prettier",
       "lintOn": [
@@ -32,7 +33,7 @@
       "css": {
         "loaderOptions": {
           "scss": {
-            "additionalData": "@import \"@/assets/scss/vendors/bootstrap/_custom.scss\"; @import \"@/assets/scss/vendors/bootstrap/_custom-bootstrap-vue.scss\"; @import \"~bootstrap/scss/_functions.scss\";@import \"~bootstrap/scss/_variables.scss\";@import \"~bootstrap/scss/_mixins.scss\";@import \"~bootstrap-vue/src/_variables.scss\";@import \"@/assets/scss/abstracts/_functions.scss\";@import \"@/assets/scss/abstracts/_variables.scss\";@import \"@/assets/scss/abstracts/_mixins.scss\";"
+            "additionalData": "@import \"~bootstrap/scss/_functions.scss\"; @import \"@/assets/scss/vendors/bootstrap-vue/_custom.scss\"; @import \"~bootstrap/scss/_variables.scss\"; @import \"~bootstrap/scss/_mixins.scss\"; @import \"~bootstrap-vue/src/_variables.scss\"; @import\"@/assetst/scss/vendors/smartify/_custom.scss\"; @import \"@/assets/scss/abstracts/_functions.scss\";@import \"@/assets/scss/abstracts/_variables.scss\";@import \"@/assets/scss/abstracts/_mixins.scss\";"
           }
         }
       }      
