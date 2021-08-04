@@ -14,10 +14,6 @@
         "commit"
       ]
     },
-    "@ascendancyy/vue-cli-plugin-stylelint": {
-      "config": "standard",
-      "lintStyleOn": ["build", "commit"]
-    },
     "vue-cli-plugin-bootstrap-vue": {
       "usePolyfills": false,
       "useScss": true
