@@ -21,24 +21,6 @@
     "vue-cli-plugin-fontawesome": {},
     "@smart-contact/vue-cli-plugin-landing-page": { "prompts": true }
   },
-  "configs": {
-    "vue": {
-      "configureWebpack": {
-        "resolve": { 
-          "symlinks": false
-        }
-      },
-      "productionSourceMap": false,
-      "outputDir": "dist",
-      "css": {
-        "loaderOptions": {
-          "scss": {
-            "additionalData": "@import \"~bootstrap/scss/_functions.scss\"; @import \"@/assets/scss/vendors/bootstrap-vue/_custom.scss\"; @import \"~bootstrap/scss/_variables.scss\"; @import \"~bootstrap/scss/_mixins.scss\"; @import \"~bootstrap-vue/src/_variables.scss\"; @import\"@/assetst/scss/vendors/smartify/_custom.scss\"; @import \"@/assets/scss/abstracts/_functions.scss\";@import \"@/assets/scss/abstracts/_variables.scss\";@import \"@/assets/scss/abstracts/_mixins.scss\";"
-          }
-        }
-      }      
-    }
-  },
   "vueVersion": "2",
   "cssPreprocessor": "dart-sass"
 }
