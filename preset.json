@@ -13,7 +13,8 @@
     },
     "vue-cli-plugin-bootstrap-vue": {
       "usePolyfills": false,
-      "useScss": true
+      "useScss": true,
+      "injectAbstracts": true
     },
     "vue-cli-plugin-fontawesome": {},
     "@smart-contact/vue-cli-plugin-landing-page": { "prompts": true }
