@@ -15,7 +15,6 @@
       "useScss": true,
       "injectAbstracts": true
     },
-    "vue-cli-plugin-fontawesome": {},
     "@smart-contact/vue-cli-plugin-landing-page": { "prompts": true }
   },
   "vueVersion": "2",
