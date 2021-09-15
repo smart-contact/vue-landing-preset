@@ -13,7 +13,7 @@
     "vue-cli-plugin-bootstrap-vue": {
       "usePolyfills": false,
       "useScss": true,
-      "injectAbstracts": true
+      "injectAbstracts": false
     },
     "@smart-contact/vue-cli-plugin-landing-page": { "prompts": true }
   },
