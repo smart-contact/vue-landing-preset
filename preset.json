@@ -1,9 +1,14 @@
 {
   "useConfigFiles": true,
   "plugins": {
-    "@vue/cli-plugin-babel": {},
-    "@vue/cli-plugin-e2e-cypress": {},
+    "@vue/cli-plugin-babel": {
+      "version": "^5.0.0-beta.4"
+    },
+    "@vue/cli-plugin-e2e-cypress": {
+      "version": "^5.0.0-beta.4"
+    },
     "@vue/cli-plugin-eslint": {
+      "version": "^5.0.0-beta.4",
       "config": "prettier",
       "lintOn": [
         "save",
