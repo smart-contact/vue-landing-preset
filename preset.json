@@ -20,7 +20,10 @@
       "useScss": true,
       "injectAbstracts": false
     },
-    "@smart-contact/vue-cli-plugin-landing-page": { "prompts": true }
+    "@smart-contact/vue-cli-plugin-landing-page": { 
+      "version": "latest",
+      "prompts": true
+    }
   },
   "vueVersion": "2",
   "cssPreprocessor": "dart-sass"
