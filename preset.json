@@ -1,9 +1,6 @@
 {
   "useConfigFiles": true,
   "plugins": {
-    "@vue/cli-service": {
-      "version": "next"
-    },
     "@vue/cli-plugin-babel": {
       "version": "next"
     },
@@ -24,7 +21,7 @@
       "injectAbstracts": false
     },
     "@smart-contact/vue-cli-plugin-landing-page": { 
-      "version": "^1.x.x",
+      "version": "^1.9.x",
       "prompts": true
     }
   },
