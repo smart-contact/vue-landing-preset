@@ -1,6 +1,9 @@
 {
   "useConfigFiles": true,
   "plugins": {
+    "@vue/cli-service": {
+      "version": "next"
+    },
     "@vue/cli-plugin-babel": {
       "version": "next"
     },
