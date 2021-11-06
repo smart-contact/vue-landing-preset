@@ -21,7 +21,7 @@
       "injectAbstracts": false
     },
     "@smart-contact/vue-cli-plugin-landing-page": { 
-      "version": "^1.9.x",
+      "version": "latest",
       "prompts": true
     }
   },
