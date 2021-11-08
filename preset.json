@@ -7,6 +7,14 @@
     "@vue/cli-plugin-e2e-cypress": {
       "version": "next"
     },
+    "@vue/cli-plugin-eslint": {
+      "version": "next",
+      "config": "prettier",
+      "lintOn": [
+        "save",
+        "commit"
+      ]
+    },
     "vue-cli-plugin-bootstrap-vue": {
       "usePolyfills": false,
       "useScss": true,
